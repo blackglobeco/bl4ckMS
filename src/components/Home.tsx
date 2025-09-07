@@ -344,7 +344,7 @@ export default function EmailCampaignTool() {
             ) : (
               <Send className="h-4 w-4 mr-2" />
             )}
-            {isSending ? "Sending..." : "Send Campaign"}
+            {isSending ? "Sending..." : "Send Email"}
           </Button>
         </CardFooter>
       </Card>
